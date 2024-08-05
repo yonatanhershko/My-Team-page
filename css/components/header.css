@@ -1,0 +1,66 @@
+/* color: var(--headertextclr);
+ */
+
+/* Header */
+
+.intro {
+    background-color: var(--bg-clr1);
+    height: 700px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 76px;
+
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 48px;
+    margin-inline-end: 81px;
+    color: var(--text-clr1);
+    font-family: Livvic-Bold;
+}
+
+.header-content a {
+    font-size: 18px;
+    margin-inline-end: 41px;
+    color: var(--text-clr1);
+    text-decoration: none;
+}
+
+.header-content a:hover{
+    color: var(--text-clr2);
+}
+
+.contact-btn {
+    background: transparent;
+    font-family: Livvic-Semi-Bold;
+    border-radius: 20px;
+    border: 2px solid var(--text-clr1);
+    color: var(--text-clr1);
+    padding: 10px 30px;
+    transition: background-color 0.3s, color 0.3s; /* Optional: smooth transition */
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #FFFFFF; 
+    color: #002529; 
+   
+}
+
+
+.svg-home2{
+     /* y  start center end* start higher//*  */
+     align-self:end; 
+
+     /* x start center end * start = left//*  */
+     justify-self: end;
+}

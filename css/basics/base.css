@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Livvic-Semi-Bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1;
+  color: var(--text-clr1);
+}
+
+
+
+.main-screen {
+  opacity: 0;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+
+  pointer-events: none;
+
+  transition: opacity 0.8s;
+}
+
+body.menu-open .main-screen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+body.bg-promo-open .main-screen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
